@@ -25,7 +25,8 @@ class HomeWidget extends StatelessWidget {
   @override
   	Widget build(BuildContext context) {
       return new Center(
-       child: new Text( "Hello"),
+       child: new Text( "Hello", 
+         style: new TextStyle(fontSize: 24.0)),
     );
    }
   
