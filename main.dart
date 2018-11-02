@@ -30,6 +30,20 @@ class HomeWidget extends StatelessWidget {
     );
    }
   
+}
+
+
+class LandingWidget extends StatelessWidget {
+  
+   @override
+  	Widget build(BuildContext context) {
+      return new ListView.builder(
+      itemCount: 10,
+      itemBuilder: (context, rowNumber) {
+        return new Text("Row $rownumber");
+      });
+        
+    }
   
   
 }
