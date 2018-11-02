@@ -10,14 +10,25 @@ class myApp extends StatelessWidget {
       appBar: new AppBar (
         title: new Text("App Bar Title"),
       ),
-      body: new Center(
-        child: new Text("Scaffold"),
+      body: new HomeWidget(),
 
-      ),//Center
+      
 
     )//Scaffold
 
    ); //MaterialApp
  }
+  
+}
+
+class HomeWidget extends StatelessWidget {
+  @override
+  	Widget build(BuildContext context) {
+      return new Center(
+       child: new Text( "Hello"),
+    );
+   }
+  
+  
   
 }
